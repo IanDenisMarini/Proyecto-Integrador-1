@@ -3,11 +3,11 @@ ANÁLISIS ENTRADA PROCESO SALIDA.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 CRUD MENU PRINCIPAL.
-
+--------------------------------------------------------------------------------------------------------------
 Entrada:
 Un Usuario accede al sistema y ve el menú principal
 El Usuario elige una opción del menú principal
-
+--------------------------------------------------------------------------------------------------------------
 Proceso:
 Mostrar el mensaje de bienvenida y el menú principal:
   Opciones:
@@ -24,20 +24,19 @@ Según la opción elegida:
   Opción 4: Llamar a mostrar_menu_categorias()
   Opción 5: Mostrar mensaje de salida y terminar
   Opción no válida: Mostrar un mensaje de error y volver a mostrar al comienzo para mostrar el menú principal
-
+--------------------------------------------------------------------------------------------------------------
 Salida:
 Mensajes en pantalla según la opción elegida por el usuario:
   Submenús para gestionar libros, usuarios, préstamos o categorias
   Mensaje de error si la opción no es válida
   Mensaje de salida si elige la opción 4 en el menú principal
-
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
 
 CRUD TABLA LIBROS
-
+--------------------------------------------------------------------------------------------------------------
 Entrada:
 El usuario selecciona la opción de gestionar libros en el menú principal de la aplicación.
-
+--------------------------------------------------------------------------------------------------------------
 Proceso:
 1.Mostrar el submenú de gestión de libros con las opciones CRUD.
 2.Leer la opción seleccionada por el usuario.
@@ -58,17 +57,16 @@ Proceso:
     Solicitar al usuario el ID del libro a eliminar.
     Confirmar la eliminación.
     Eliminar el libro de la base de datos.
-
+--------------------------------------------------------------------------------------------------------------
 Salida:
 Mostrar mensajes de éxito o error según la acción realizada por el usuario.
-
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
 
 CRUD TABLA USUARIOS
-
+--------------------------------------------------------------------------------------------------------------
 Entrada:
 El usuario selecciona la opción de gestionar usuarios en el menú principal de la aplicación.
-
+--------------------------------------------------------------------------------------------------------------
 Proceso:
 1.Mostrar el submenú de gestión de usuarios con las opciones CRUD.
 2.Leer la opción seleccionada por el usuario.
@@ -89,18 +87,17 @@ Proceso:
     Solicitar al usuario el ID del usuario a eliminar.
     Confirmar la eliminación.
     Eliminar el usuario de la base de datos.
-
+--------------------------------------------------------------------------------------------------------------
 Salida:
 Mostrar mensajes de éxito o error según la acción realizada por el usuario.
-
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
 
 CRUD TABLA PRESTAMOS
-
+--------------------------------------------------------------------------------------------------------------
 Entrada:
 El usuario selecciona la opción de gestionar préstamos en el menú principal de la aplicación.
 Proceso:
-
+--------------------------------------------------------------------------------------------------------------
 1.Mostrar el submenú de gestión de préstamos con las opciones CRUD.
 2.Leer la opción seleccionada por el usuario.
 3.Según la opción seleccionada:
@@ -118,15 +115,16 @@ Proceso:
     Solicitar al usuario el ID del préstamo a eliminar.
     Confirmar la eliminación.
     Eliminar el préstamo de la base de datos.
-
+--------------------------------------------------------------------------------------------------------------
 Salida:
 Mostrar mensajes de éxito o error según la acción realizada por el usuario.
+--------------------------------------------------------------------------------------------------------------
 
 CRUD TABLA CATEGORIAS
-
+--------------------------------------------------------------------------------------------------------------
 Entrada:
 El usuario selecciona la opción de gestionar categorías en el menú principal de la aplicación.
-
+--------------------------------------------------------------------------------------------------------------
 Proceso:
 1.Mostrar el submenú de gestión de categorías con las opciones CRUD.
 2.Leer la opción seleccionada por el usuario.
@@ -147,6 +145,7 @@ Proceso:
     Solicitar al usuario el ID de la categoría a eliminar.
     Confirmar la eliminación.
     Eliminar la categoría de la base de datos.
-
+--------------------------------------------------------------------------------------------------------------
 Salida:
 Mostrar mensajes de éxito o error según la acción realizada por el usuario.
+--------------------------------------------------------------------------------------------------------------
