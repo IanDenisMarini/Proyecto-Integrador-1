@@ -1,6 +1,7 @@
 # Proyecto-Integrador-ISPC - Grupo 28
 
-Integrantes.
+Integrantes:
+
 Nombre: Ian Denis
 Apellido: Marini
 DNI: 38.409.531
