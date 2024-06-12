@@ -1,6 +1,6 @@
 # Proyecto-Integrador-ISPC
 
-Integrantes:Grupo 28
+Integrantes: Grupo 28
 
 Nombre: Ian Denis
 Apellido: Marini
